@@ -258,7 +258,7 @@ li a {
     font-size: 20px;
     line-height: 30px;
     margin: 0;
-    padding-top: 30px;
+    margin-top: 30px;
 }
 
 .card__description button, .bottom__card button, .button {
@@ -352,18 +352,23 @@ li a {
     padding: 1.25rem 1.25rem;
 }
 
+.news__card img {
+    width: 100%;
+    height: auto;
+}
+
 .news__card h2 {
     font-weight: 600;
     color: #000000;
     font-size: 16px;
     line-height: 24px;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .news__card p {
     font-weight: 500;
     color: #677E8B;
-    padding-top: 10px;
+    margin-top: 10px;
 }
 
 .button {
@@ -376,12 +381,8 @@ footer {
     background: #F7F8FA;
 }
 
-.footer__first-col {
-    width: 39%;
-}
-
-.footer__second-col {
-    width: 27%;
+.footer__top {
+    padding: 6.25rem 0;
 }
 
 .footer__apps {
@@ -430,7 +431,7 @@ footer ul p {
 }
 
 footer li {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .social__media {
@@ -471,7 +472,6 @@ footer h4, footer h5 {
 }
 
 .bottom__content {
-    margin-top: 6.25rem;
     display: flex;
     border-top: 1px solid #EAEDF2;
     padding: 1.25rem;
