@@ -73,9 +73,6 @@
     padding: 0.8rem;
     border-radius: 50%;
     background: #F7F8FA;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .order {
@@ -102,7 +99,6 @@
     background: #F7F8FA;
     border-radius: 50px;
     display: flex;
-    align-items: center;
     padding: 0.81rem 0.75rem;
     gap: 5px;
     margin-left: 35px;
@@ -168,6 +164,7 @@ li a {
     position: absolute;
     top: -380px;
     left: -70px;
+    margin: 0;
 }
 
 .first__banner-text h5 span {
@@ -198,8 +195,6 @@ li a {
     border-radius: 50%;
     background: #F7F8FA;
     display: flex;
-    align-items: center;
-    justify-content: center;
     position: absolute;
     cursor: pointer;
 }
@@ -325,8 +320,6 @@ li a {
     background: #FFFFFF;
     margin-left: auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .accordion-button::after {
@@ -355,8 +348,6 @@ li a {
 }
 
 .news__card {
-    /* width: 460px;
-    height: 425px; */
     border: 1px solid #F0F2F6;
     padding: 1.25rem 1.25rem;
 }
@@ -455,8 +446,6 @@ footer li {
     border-radius: 50%;
     background: #FFFFFF;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .social__circle img {
