@@ -9,8 +9,11 @@
     <script src="index.js" defer></script>
 </head>
 <body>
+    <div class="scroll__top" onclick="scrollToTop()">
+      <img src="./assets/icons/arrow-up.svg" alt="Arrow up">
+    </div>
     <div class="container border__header">
-      <header class="container d-flex align-items-center justify-content-between" style="padding-top: 24px;">
+      <header class="container d-flex align-items-center justify-content-between" style="padding-top: 1rem;">
         <img src="./assets/images/header__logo.png" alt="Header logo">
         <div class="d-flex align-items-center" style="gap: 20px;">
             <div class="hamburger">
@@ -80,12 +83,12 @@
             </div>
             <button class="carousel-control-prev" style="width: 0; opacity: 1;" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
               <div class="slider__left slider__left-news">
-                <img src="./assets/icons/arrow-left.svg" alt="arrow">
+                <img src="./assets/icons/arrow_right_blue.svg" alt="arrow">
               </div>
             </button>
             <button class="carousel-control-next" style="width: 0; opacity: 1;" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
               <div class="slider__right slider__right-news">
-                <img src="./assets/icons/arrow-right.svg" alt="arrow">
+                <img src="./assets/icons/arrow_left_blue.svg" alt="arrow">
               </div>
             </button>
           </div>
@@ -93,7 +96,7 @@
     <section class="product__section">
         <div class="container">
             <h2>Наша продукция</h2>
-            <div class="container" style="margin-top: 50px;">
+            <div class="container p-0" style="margin-top: 50px;">
                 <div class="row">
                     <div class="top__card col-md-6 col-sm-12 d-flex align-items-center">
                       <div class="card__description">
@@ -114,7 +117,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="bottom__card col-md-4 col-sm-12 d-flex align-items-center" style="margin-left: 12px;">
+                    <div class="col-md-4 col-sm-12 p-0">
+                      <div class="bottom__card d-flex align-items-center">
                         <div class="card__description">
                           <h3>Кулер для воды</h3>
                           <p>5 000 000 сум</p>
@@ -122,7 +126,9 @@
                         </div>
                         <img src="./assets/images/filter_3.png" alt="">
                     </div>
-                    <div class="bottom__card col-md-4 col-sm-12 d-flex align-items-center">
+                    </div>
+                    <div class="col-md-4 col-sm-12 p-0">
+                      <div class="bottom__card d-flex align-items-center">
                         <div class="card__description">
                           <h3>Механическая помпа</h3>
                           <p>20 000 сум</p>
@@ -130,13 +136,16 @@
                         </div>
                         <img src="./assets/images/filter_4.png" alt="">
                     </div>
-                    <div class="bottom__card col-md-4 col-sm-12 d-flex align-items-center">
+                    </div>
+                    <div class="col-md-4 col-sm-12 p-0">
+                      <div class="bottom__card d-flex align-items-center">
                         <div class="card__description">
                           <h3>Ручка для баклажки</h3>
                           <p>14 000 сум</p>
                           <button>В корзину</button>
                         </div>
                         <img src="./assets/images/filter_5.png" alt="">
+                    </div>
                     </div>
                 </div>
             </div>
@@ -151,7 +160,7 @@
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                 Доблесть наших правозащитников даёт нам право принимать самостоятельные решения
                 <div class="plus__button">
-                  <p>+</p>
+                  <img src="./assets/icons/Plus.svg" alt="plus / minus">
                 </div>
               </button>
             </h2>
@@ -166,7 +175,7 @@
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 Убеждённость некоторых оппонентов продолжает удивлять
                 <div class="plus__button">
-                  <p>+</p>
+                  <img src="./assets/icons/Plus.svg" alt="plus / minus">
                 </div>
               </button>
             </h2>
@@ -181,7 +190,7 @@
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 Цена вопроса не важна, когда небо темнеет
                 <div class="plus__button">
-                  <p>+</p>
+                  <img src="./assets/icons/Plus.svg" alt="plus / minus">
                 </div>
               </button>
             </h2>
@@ -196,7 +205,7 @@
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                 Новая модель организационной деятельности показала себя во всей красе
                 <div class="plus__button">
-                  <p>+</p>
+                  <img src="./assets/icons/Plus.svg" alt="plus / minus">
                 </div>
               </button>
             </h2>
@@ -215,55 +224,61 @@
           <h3>Новости</h3>
         <div class="d-flex" style="gap: 10px;">
           <div class="slider__left-news">
-            <img src="./assets/icons/arrow-left.svg" alt="Slider">
+            <img src="./assets/icons/arrow_right_blue.svg" alt="Slider">
           </div>
           <div class="slider__right-news">
-            <img src="./assets/icons/arrow-right.svg" alt="Slider">
+            <img src="./assets/icons/arrow_left_blue.svg" alt="Slider">
           </div>
         </div>
         </div>
-        <div class="row" style="margin-top: 50px; gap: 20px;">
-          <div class="news__card">
-            <img src="./assets/images/newsPicture1.jpg" alt="Picture">
-            <h2>Оказывается, органический трафик ни к чему нас не обязывает</h2>
-            <p>Ясность нашей позиции очевидна: реализация намеченных плановых заданий позволяет выполни</p>
-            <button class="button">Подробнее</button>
+        <div class="row" style="margin-top: 50px;">
+          <div class="col-md-4 col-12">
+            <div class="news__card">
+              <img src="./assets/images/newsPicture1.jpg" alt="Picture">
+              <h2>Оказывается, органический трафик ни к чему нас не обязывает</h2>
+              <p>Ясность нашей позиции очевидна: реализация намеченных плановых заданий позволяет выполни</p>
+              <button class="button">Подробнее</button>
+            </div>
           </div>
-          <div class="news__card">
-            <img src="./assets/images/newsPicture2.jpg" alt="Picture">
-            <h2>Оказывается, органический трафик ни к чему нас не обязывает</h2>
-            <p>Ясность нашей позиции очевидна: реализация намеченных плановых заданий позволяет выполни</p>
-            <button class="button">Подробнее</button>
+          <div class="col-md-4 col-12">
+            <div class="news__card">
+              <img src="./assets/images/newsPicture2.jpg" alt="Picture">
+              <h2>Оказывается, органический трафик ни к чему нас не обязывает</h2>
+              <p>Ясность нашей позиции очевидна: реализация намеченных плановых заданий позволяет выполни</p>
+              <button class="button">Подробнее</button>
+            </div>
           </div>
-          <div class="news__card">
-            <img src="./assets/images/newsPicture3.jpg" alt="Picture">
-            <h2>Оказывается, органический трафик ни к чему нас не обязывает</h2>
-            <p>Ясность нашей позиции очевидна: реализация намеченных плановых заданий позволяет выполни</p>
-            <button class="button">Подробнее</button>
+          <div class="col-md-4 col-12">
+            <div class="news__card">
+              <img src="./assets/images/newsPicture3.jpg" alt="Picture">
+              <h2>Оказывается, органический трафик ни к чему нас не обязывает</h2>
+              <p>Ясность нашей позиции очевидна: реализация намеченных плановых заданий позволяет выполни</p>
+              <button class="button">Подробнее</button>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <footer>
       <div class="container d-flex">
-        <div class="col-md-5 col-sm-12" style="padding-top: 6.25rem;">
+        <div class="col-md-5 col-sm-12 footer__first-col" style="padding-top: 6.25rem;">
           <img src="./assets/images/footerLogo.png" alt="Footer logo">
           <div class="footer__apps">
             <div class="google__play">
               <img src="./assets/icons/google_play.svg" alt="Google play">
               <p>
-                Загрузите в <span>Google Play</span>
+                Загрузите в <br> <span>Google Play</span>
               </p>
             </div>
             <div class="app__store">
               <img src="./assets/icons/app_store.svg" alt="App store">
               <p>
-                Загрузите в <span>App Store</span>
+                Загрузите в <br> <span>App Store</span>
               </p>
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-12" style="padding-top: 6.25rem;">
+        <div class="col-md-3 col-sm-12 footer__second-col" style="padding-top: 6.25rem;">
           <ul>
             <p>
               О компании
@@ -286,7 +301,9 @@
           </ul>
         </div>
         <div class="col-md-4 col-sm-12" style="padding-top: 6.25rem;">
-          <a class="number" href="tel:+998950003003">+99895 000 30 03</a>
+          <div class="number">
+            <a href="tel:+998950003003" style="color: #0072BB;">+99895 000 30 03</a>
+          </div>
           <div class="social__media">
             <div class="social__circle">
               <img src="./assets/icons/facebook.svg" alt="Facebook icon">
@@ -298,14 +315,14 @@
               <img src="./assets/icons/telegram.svg" alt="Telegram icon">
             </div>
             </div>
-            <h4>quduqgroup@gmail.com</h4>
+              <h4>quduqgroup@gmail.com</h4>
             <h5>Toshkent Shahri, Shayxontohur tumani, <br> Istiroxat kochasi, 41-uy</h5>
         </div>
       </div>
-      <div class="container bottom__content">
+      <div class="container bottom__content d-flex align-items-center justify-content-between">
         <p>2024 © quduq.uz</p>
         <h4>Доставка воды по городу Ташкент </h4>
-        <h5>Разработано в Exord Soft</h5>
+        <h6>Разработано в Exord Soft</h6>
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
