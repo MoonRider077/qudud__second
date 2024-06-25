@@ -167,7 +167,7 @@
     }
 
     .news__mobile {
-        display: none;
+        display: block;
     }
 
     .news__section .container {
@@ -257,7 +257,7 @@
     }
 
     .news__card button {
-        padding: 0.8rem 2.5rem;
+        padding: 0.8rem 3rem;
     }
 
     .footer__apps {
@@ -315,6 +315,10 @@
 
 @media (max-width: 576px) {
     .news__card button {
-        padding: 0.8rem 4.4rem;
+        padding: 0.8rem 4rem;
+    }
+
+    .news__mobile {
+        display: none;
     }
 }
