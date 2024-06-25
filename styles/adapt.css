@@ -353,4 +353,39 @@
     .first__banner-text button {
         padding: 0.4rem 1.4rem;
     }
+
+    .fixed__menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid #EEEEEE;
+        padding: 0.5rem 1.25rem;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #ffffff; 
+        box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .fixed__menu > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    
+    .fixed__menu img {
+        margin-bottom: 0.25rem; 
+    }
+    
+    .fixed__menu p {
+        font-size: 13px;
+        line-height: 19.5px;
+        color: #677E8B;
+        margin: 0;
+        text-align: center; 
+    }
+
+    .bottom__content {
+        padding-bottom: 70px;
+    }
 }

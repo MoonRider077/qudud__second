@@ -513,6 +513,6 @@ footer h4, footer h5 {
     color: #677E8B;
 }
 
-.global__mobile, .header__items, .header__logo, .carousel-indicators-mobile, .mobile__banner {
+.global__mobile, .header__items, .header__logo, .carousel-indicators-mobile, .mobile__banner, .fixed__menu {
     display: none;
 }
