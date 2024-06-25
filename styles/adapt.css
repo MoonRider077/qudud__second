@@ -1,0 +1,256 @@
+@media (max-width: 576px) {
+    header {
+        padding: 0.625rem 1.25rem !important;
+    }
+
+    .header__logo {
+        display: block;
+        width: 130px;
+        height: 32px;
+    }
+
+    .border__header {
+        padding: 0;
+    }
+
+    .header__items {
+        gap: 10px !important;
+    }
+
+    .hamburger {
+        padding: 0.625rem;
+    }
+
+    .order {
+        padding: 0.625rem;
+        display: flex;
+    }
+
+    .global__mobile {
+        display: block;
+        padding: 0.625rem;
+        display: flex;
+        border-radius: 50%;
+        background: #F7F8FA;
+    }
+
+    .banner__section {
+        padding-top: 50px;
+    }
+
+    #carouselExampleCaptions {
+        padding: 0 1.25rem;
+    }
+
+    .carousel-indicators-mobile {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .carousel-indicators-mobile button {
+        width: 12px !important; 
+        height: 12px !important; 
+        border-radius: 50% !important; 
+        background-color: #92B9D2 !important; 
+        border: none !important; 
+        margin: 0 5px !important;  
+        padding: 0 !important; 
+    }
+    
+    .carousel-indicators-mobile .active {
+        background: #0072BB !important; 
+        width: 25px !important; 
+        border-radius: 20px !important;
+    }
+
+    .banner__image {
+        padding: 0 1.25rem;
+    }
+
+    .mobile__banner {
+        display: block;
+    }
+
+    .mobile__banner img {
+        width: 100%;
+        height: auto;
+    }
+
+    .image__banner {
+        width: 100%;
+        height: auto;
+        right: -50px;
+        top: 139px;
+    }
+
+    .first__banner-text h5 {
+        font-size: 20px;
+        line-height: 30px;
+        top: -360px;
+        left: -30px;
+    }
+
+    .first__banner-text button {
+        padding: 0.5rem 2rem;
+        top: -250px;
+        left: -30px;
+    }
+
+    .product__section {
+        padding-top: 3.125rem;
+    }
+
+    .swap {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 1.25rem 1.25rem;
+        align-items: flex-start !important;
+    }
+
+    .swap img {
+        position: static;
+        margin: 0 !important;
+    }
+
+    .card__description {
+        margin-top: 2.5rem;
+    }
+
+    .card__description button {
+        margin-top: 15px;
+    }
+
+    .card__description p {
+        margin-top: 15px;
+    }
+
+    .swap img {
+        align-self: center;
+    }
+
+    .accordian__section {
+        padding-top: 3.125rem;
+    }
+
+    .accordian__section .container {
+        padding: 0 1.25rem;
+    }
+
+    .accordion__mobile {
+        display: block !important;
+    }
+
+    .accordion {
+        width: 100%;
+        height: 100%;
+    }
+
+    .accordion-button {
+        height: 70%;
+        padding: 1rem;
+    }
+
+    .why__we {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .news__section {
+        padding-top: 3.125rem;
+    }
+
+    .news__section h3 {
+        margin-top: 0.5rem;
+        font-weight: 600;
+    }
+
+    .news__mobile {
+        display: none;
+    }
+
+    .news__section .container {
+        padding: 0 1.25rem;
+    }
+
+    .header__menu, 
+    .order p, 
+    .arrow__down, 
+    .slider__left, 
+    .slider__right, 
+    .carousel-indicators, 
+    .scroll__top,
+    .main__banner {
+        display: none !important;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+
+    .footer__top {
+        display: block !important;
+        padding: 3.125rem 1.25rem;
+    }
+
+    .google__play, .app__store  {
+        width: 152px;
+        height: 60px;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .google__play p, .app__store p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .google__play span, .app__store span {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 500;
+    }
+
+    .mobile__logo {
+        width: 152px;
+        height: 107px;
+    }
+
+    .footer__list {
+        margin-top: 3.125rem;
+    }
+
+    .footer__list p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .number {
+        margin-top: 3.125rem;
+        text-align: left !important;
+        margin-left: 0;
+    }
+
+    .social__media {
+        justify-content: flex-start;
+        margin-top: 1.25rem;
+    }
+
+    .footer__top h4, .footer__top h5 {
+        text-align: left;
+    }
+
+    .bottom__content {
+        display: block !important;
+    }
+
+    .bottom__content h4 {
+        text-align: left;
+        margin-top: 0.625rem;
+    }
+
+    .bottom__content h6 {
+        margin-top: 0.625rem;
+    }
+}

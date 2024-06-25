@@ -22,6 +22,18 @@
     src: url('../assets/fonts/Poppins-Bold.ttf') format('truetype');
 }
 
+@media (max-width: 1200px) {
+    .image__banner {
+        width: 50%;
+    }
+}
+
+@media (max-width: 992px) {
+    .image__banner {
+        width: 40%;
+    }
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -29,12 +41,13 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none !important;
     list-style-type: none;
+    /* outline: 4px solid green !important; */
 }
 
-@media (min-width: 1140px) {
-    .container {
-        max-width: 1420px; 
-    }
+.main__banner {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .scroll__top {
@@ -59,8 +72,7 @@
 }
 
 .border__header {
-    max-width: 1920px;
-    height: 88px;
+    padding: 1.25rem 0;
     border-bottom: 1px solid #F0F2F6;
 }
 
@@ -73,6 +85,7 @@
     padding: 0.8rem;
     border-radius: 50%;
     background: #F7F8FA;
+    display: flex;
 }
 
 .order {
@@ -127,8 +140,8 @@ li a {
 
 .image__banner {
     position: absolute;
-    top: -418px;
-    left: 458.6px;
+    top: -20px;
+    right: 60px;
 }
 
 .carousel-indicators {
@@ -227,6 +240,14 @@ li a {
     padding-top: 120px;
 }
 
+.product__section .container {
+    padding: 0 1.25rem;
+}
+
+.product__section h2 {
+    font-weight: 600;
+}
+
 .top__card {
     border: 1px solid #F0F2F6;
     border-radius: 30px, 0px, 0px, 0px;
@@ -240,8 +261,10 @@ li a {
 }
 
 .bottom__card img {
+    max-width: 100%;
+    height: auto;
     position: absolute;
-    right: 0;
+    right: -35px;
     z-index: -1;
 }
 
@@ -258,7 +281,7 @@ li a {
     font-size: 20px;
     line-height: 30px;
     margin: 0;
-    margin-top: 30px;
+    mask-origin: 30px;
 }
 
 .card__description button, .bottom__card button, .button {
@@ -282,7 +305,7 @@ li a {
 }
 
 .accordion {
-    width: 900px;
+    width: 65%;
     margin-left: auto;
 }
 
@@ -496,4 +519,8 @@ footer h4, footer h5 {
 
 .bottom__content h6 {
     color: #677E8B;
+}
+
+.global__mobile, .header__items, .header__logo, .carousel-indicators-mobile, .mobile__banner {
+    display: none;
 }
