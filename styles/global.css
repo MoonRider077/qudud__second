@@ -28,12 +28,6 @@
     }
 }
 
-@media (max-width: 992px) {
-    .image__banner {
-        width: 40%;
-    }
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -131,6 +125,7 @@ li a {
     line-height: 36px;
     color: #0072BB;
     margin-left: 35px;
+    text-wrap: nowrap;
 }
 
 .banner__section {
@@ -273,15 +268,14 @@ li a {
     font-size: 16px;
     line-height: 24px;
     color: #000000;
-    margin: 0;  
+    margin: 0;
 }
 
 .card__description p {
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-    margin: 0;
-    mask-origin: 30px;
+    margin-top: 1.875rem;  
 }
 
 .card__description button, .bottom__card button, .button {
@@ -292,6 +286,7 @@ li a {
     font-weight: 500;
     color: #000000;
     margin-top: 30px;
+    text-wrap: nowrap;
 }
 
 .row button:hover {

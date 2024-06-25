@@ -1,4 +1,4 @@
-@media (max-width: 576px) {
+@media (max-width: 992px) {
     header {
         padding: 0.625rem 1.25rem !important;
     }
@@ -199,6 +199,7 @@
         height: 60px;
         padding: 0;
         justify-content: center;
+        text-wrap: nowrap;
     }
 
     .google__play p, .app__store p {
@@ -230,6 +231,7 @@
         margin-top: 3.125rem;
         text-align: left !important;
         margin-left: 0;
+        text-wrap: nowrap;
     }
 
     .social__media {
@@ -252,5 +254,67 @@
 
     .bottom__content h6 {
         margin-top: 0.625rem;
+    }
+
+    .news__card button {
+        padding: 0.8rem 2.5rem;
+    }
+
+    .footer__apps {
+        display: flex !important;
+    }
+
+    .app__store {
+        margin-top: 0 !important;
+    }
+}
+
+@media (max-width: 1200px) { 
+    header .number {
+        display: none;
+    }
+
+    .first__banner-text h5 {
+        font-size: 24px;
+        line-height: 30px;
+        top: -260px;
+    }
+
+    .first__banner-text button {
+        top: -150px;
+    }
+
+    .top__card button {
+        text-wrap: nowrap;
+    }
+
+    .top__card img {
+        width: 50%;
+    }
+
+    .bottom__card img {
+        width: 64%;
+    }
+
+    .card__description button {
+        padding: 0.7rem 2.6rem;
+    }
+
+    .footer__apps {
+        display: block;
+    }
+
+    .app__store {
+        margin-top: 1rem;
+    }
+
+    .scroll__top {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .news__card button {
+        padding: 0.8rem 4.4rem;
     }
 }
