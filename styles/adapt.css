@@ -1,3 +1,61 @@
+@media (max-width: 1400px) { 
+    .carousel-caption {
+        top: 60px;
+        left: 60px;
+    }
+
+    .first__banner-text button {
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 1200px) { 
+    header .number {
+        display: none;
+    }
+
+    .image__banner {
+        width: 50%;
+    }
+
+    .first__banner-text h5 {
+        font-size: 32px;
+        line-height: 48px;
+    }   
+
+    .first__banner-text button {
+        margin-top: 1rem;
+    }
+
+    .top__card button {
+        text-wrap: nowrap;
+    }
+
+    .top__card img {
+        width: 50%;
+    }
+
+    .bottom__card img {
+        width: 64%;
+    }
+
+    .card__description button {
+        padding: 0.7rem 2.6rem;
+    }
+
+    .footer__apps {
+        display: block;
+    }
+
+    .app__store {
+        margin-top: 1rem;
+    }
+
+    .scroll__top {
+        display: none;
+    }
+}
+
 @media (max-width: 992px) {
     header {
         padding: 0.625rem 1.25rem !important;
@@ -70,6 +128,7 @@
 
     .mobile__banner {
         display: block;
+        position: relative;
     }
 
     .mobile__banner img {
@@ -80,21 +139,23 @@
     .image__banner {
         width: 100%;
         height: auto;
-        right: -50px;
-        top: 139px;
+        right: 0 !important;
+        bottom: 0 !important;
+    }
+
+    .carousel-caption {
+        left: 80px;
+        top: 80px;
     }
 
     .first__banner-text h5 {
-        font-size: 20px;
-        line-height: 30px;
-        top: -360px;
-        left: -30px;
+        font-size: 32px;
+        line-height: 48px;
     }
 
     .first__banner-text button {
         padding: 0.5rem 2rem;
-        top: -250px;
-        left: -30px;
+        margin-top: 1rem;
     }
 
     .product__section {
@@ -200,6 +261,7 @@
         padding: 0;
         justify-content: center;
         text-wrap: nowrap;
+        padding: 1rem;
     }
 
     .google__play p, .app__store p {
@@ -269,50 +331,6 @@
     }
 }
 
-@media (max-width: 1200px) { 
-    header .number {
-        display: none;
-    }
-
-    .first__banner-text h5 {
-        font-size: 24px;
-        line-height: 30px;
-        top: -260px;
-    }
-
-    .first__banner-text button {
-        top: -150px;
-    }
-
-    .top__card button {
-        text-wrap: nowrap;
-    }
-
-    .top__card img {
-        width: 50%;
-    }
-
-    .bottom__card img {
-        width: 64%;
-    }
-
-    .card__description button {
-        padding: 0.7rem 2.6rem;
-    }
-
-    .footer__apps {
-        display: block;
-    }
-
-    .app__store {
-        margin-top: 1rem;
-    }
-
-    .scroll__top {
-        display: none;
-    }
-}
-
 @media (max-width: 576px) {
     .news__card button {
         padding: 0.8rem 4rem;
@@ -320,5 +338,19 @@
 
     .news__mobile {
         display: none;
+    }
+
+    .carousel-caption {
+        left: 30px;
+        top: 30px;
+    }
+
+    .first__banner-text h5 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    
+    .first__banner-text button {
+        padding: 0.4rem 1.4rem;
     }
 }
